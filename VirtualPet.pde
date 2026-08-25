@@ -1,8 +1,14 @@
+size(500,500);
 
-void setup(){
-  //some of your code here
-}
-void draw(){
-  //more of your code here
-}
+fill(233,186,12);
+ellipse(250,270,250,225);
+fill(0,0,0);
+ellipse(210,240,40,70);
+ellipse(290,240,40,70);
 
+fill(240,127,201);
+ellipse(250,290,50,20);
+
+noFill();
+arc(280,320,60,50,0,PI);
+arc(220,320,60,50,0,PI);
